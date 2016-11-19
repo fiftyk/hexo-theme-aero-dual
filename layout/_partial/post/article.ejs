@@ -34,4 +34,18 @@
       </div>
     </div>
   </div>
+  <% if(theme.comment.use == "duoshuo"){ %>
+      <!-- Comment Number -->
+      <div class="container typo">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="ds-thread" 
+              data-thread-key="<%= page.path %>" 
+              data-title="<%= page.title %>" 
+              data-url="<%= page.permalink %>">
+            </div>
+          </div>
+        </div>
+      </div>
+  <% } %>
 </article>

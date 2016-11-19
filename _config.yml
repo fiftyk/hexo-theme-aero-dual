@@ -3,8 +3,8 @@ menu:
   Home: /
   Archives: /archives
   # change github and email values to your own addresses
-  Github: https://github.com/levblanc
-  Email: mailto:levblanc@163.com
+  Github: https://github.com/fiftyk
+  Email: mailto:fiftyk@qq.com
 rss: /atom.xml
 
 # Set to false to disable banner
@@ -38,5 +38,17 @@ show_count: false
 favicon: /favicon.png
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: UA-86971920-1
 
+# ---------------------------------------------------------------
+# Integrated Services
+# ---------------------------------------------------------------
+    
+# Comment Systems
+# Available value:
+#     duoshuo
+comment:
+    use: duoshuo
+    shortname: 
+    duoshuo_thread_key: path
+    duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
